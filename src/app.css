@@ -1,4 +1,4 @@
 @import 'tailwindcss';
-.genericInput{
-    @apply w-full px-1.5 rounded-lg border bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0a2c48];
-  }
+.genericInput {
+	@apply w-full rounded-lg border bg-gray-100 px-1.5 py-2 text-gray-900 focus:ring-2 focus:ring-[#0a2c48] focus:outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-white;
+}

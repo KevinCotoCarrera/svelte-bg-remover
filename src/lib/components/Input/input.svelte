@@ -55,7 +55,7 @@
 </script>
 
 <div class="w-64">
-	<label for={id} class={`flex flex-col ${labelClass}`}>
+	<label for={id} class={`flex flex-col ${labelClass} text-gray-800 dark:text-gray-200`}>
 		{label}
 		{#if type === 'textarea'}
 			<textarea
